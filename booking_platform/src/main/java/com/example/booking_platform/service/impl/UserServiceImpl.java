@@ -3,7 +3,6 @@ package com.example.booking_platform.service.impl;
 import com.example.booking_platform.model.dto.RegisterRequest;
 import com.example.booking_platform.model.entity.Role;
 import com.example.booking_platform.model.entity.User;
-import com.example.booking_platform.repository.RoleRepository;
 import com.example.booking_platform.repository.UserRepository;
 import com.example.booking_platform.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -15,13 +14,20 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
-    private final RoleRepository roleRepository;
     private final PasswordEncoder passwordEncoder;
 
     @Override
-    public User register(RegisterRequest request) {
-        Role role = roleRepository.findByName(request.getRole())
-                .orElseThrow(() -> new RuntimeException("Role not found"));
+    public User registerUser(RegisterRequest request) {
+        if (userRepository.existsByUsername(request.getUsername())) {
+            throw new RuntimeException("Username already exists");
+        }
+
+        Role role;
+        try {
+            role = Role.valueOf(request.getRole().toUpperCase());
+        } catch (IllegalArgumentException e) {
+            throw new RuntimeException("Invalid role. Use CLIENT or SPECIALIST");
+        }
 
         User user = User.builder()
                 .username(request.getUsername())
