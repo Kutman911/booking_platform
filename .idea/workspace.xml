@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a155505b-02f2-4132-9307-a5b2dd43f3bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/booking_platform/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/controller/AppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/controller/AppointmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/model/dto/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/model/dto/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/model/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/model/dto/RegisterRequest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kutman911&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kutman911/booking_platform.git&quot;,
+    &quot;accountId&quot;: &quot;47d3e165-a5fa-43c1-8a0f-1e4989236b12&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="33XoNwxypqHccXO9ztWG8C116u5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.booking_platform [clean,install,-U].executor": "Run",
+    "Maven.booking_platform [clean,install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.BookingPlatformApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kutma/Downloads/booking_platform",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.booking_platform.service" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn clean install -U " />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="BookingPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="booking_platform" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.booking_platform.BookingPlatformApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-84258761d1cc-intellij.indexing.shared.core-IU-243.28141.18" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.28141.18" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a155505b-02f2-4132-9307-a5b2dd43f3bd" name="Changes" comment="" />
+      <created>1759472741547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759472741547</updated>
+      <workItem from="1759472742791" duration="1010000" />
+      <workItem from="1759480856115" duration="4745000" />
+      <workItem from="1759583385813" duration="9357000" />
+      <workItem from="1759593446184" duration="345000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

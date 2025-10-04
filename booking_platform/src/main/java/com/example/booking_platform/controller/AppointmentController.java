@@ -5,9 +5,11 @@ import com.example.booking_platform.model.dto.AppointmentResponse;
 import com.example.booking_platform.model.entity.Appointment;
 import com.example.booking_platform.model.entity.Specialist;
 import com.example.booking_platform.model.entity.User;
+import com.example.booking_platform.repository.SpecialistRepository;
 import com.example.booking_platform.service.AppointmentService;
 import com.example.booking_platform.service.AuthUserService;
-import com.example.booking_platform.repository.SpecialistRepository;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -20,12 +22,14 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/appointments")
 @RequiredArgsConstructor
+@Tag(name = "Appointments", description = "Endpoints for booking and managing appointments")
 public class AppointmentController {
 
     private final AppointmentService appointmentService;
     private final AuthUserService authUserService;
     private final SpecialistRepository specialistRepository;
 
+    @Operation(summary = "Create appointment", description = "CLIENT can book an appointment with a specialist.")
     @PreAuthorize("hasRole('CLIENT')")
     @PostMapping
     public ResponseEntity<AppointmentResponse> createAppointment(@RequestBody AppointmentRequest request) {
@@ -52,6 +56,7 @@ public class AppointmentController {
         return ResponseEntity.ok(response);
     }
 
+    @Operation(summary = "Get my appointments", description = "CLIENT can view their own appointments.")
     @PreAuthorize("hasRole('CLIENT')")
     @GetMapping("/my")
     public ResponseEntity<List<AppointmentResponse>> getMyAppointments() {
@@ -70,6 +75,7 @@ public class AppointmentController {
         return ResponseEntity.ok(responses);
     }
 
+    @Operation(summary = "View specialist’s appointments", description = "SPECIALIST can view all appointments booked with them.")
     @PreAuthorize("hasRole('SPECIALIST')")
     @GetMapping("/specialist/{specialistId}")
     public ResponseEntity<List<AppointmentResponse>> getAppointmentsForSpecialist(@PathVariable UUID specialistId) {
@@ -87,6 +93,7 @@ public class AppointmentController {
         return ResponseEntity.ok(responses);
     }
 
+    @Operation(summary = "Confirm appointment", description = "SPECIALIST confirms a client’s appointment.")
     @PreAuthorize("hasRole('SPECIALIST')")
     @PutMapping("/{id}/confirm")
     public ResponseEntity<AppointmentResponse> confirmAppointment(@PathVariable UUID id) {
@@ -101,6 +108,7 @@ public class AppointmentController {
         return ResponseEntity.ok(response);
     }
 
+    @Operation(summary = "Cancel appointment", description = "CLIENT cancels their appointment.")
     @PreAuthorize("hasRole('CLIENT')")
     @DeleteMapping("/{id}")
     public ResponseEntity<AppointmentResponse> cancelAppointment(@PathVariable UUID id) {
