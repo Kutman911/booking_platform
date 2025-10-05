@@ -38,4 +38,5 @@ public class AdminController {
     public ResponseEntity<List<Appointment>> getAllAppointments() {
         return ResponseEntity.ok(appointmentRepository.findAll());
     }
+
 }
