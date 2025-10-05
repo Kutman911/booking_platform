@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a155505b-02f2-4132-9307-a5b2dd43f3bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/booking_platform/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/controller/AppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/controller/AppointmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/model/dto/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/model/dto/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/model/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/model/dto/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking_platform/src/test/java/com/example/booking_platform/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/test/java/com/example/booking_platform/AuthControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -52,29 +55,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.booking_platform [clean,install,-U].executor": "Run",
-    "Maven.booking_platform [clean,install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.BookingPlatformApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kutma/Downloads/booking_platform",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AuthControllerTest.testRegisterUser.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.booking_platform [clean,install,-U].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.booking_platform [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BookingPlatformApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kutma/Downloads/booking_platform/booking_platform/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.booking_platform.service" />
@@ -86,7 +94,23 @@
       <command value="mvn clean install -U " />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.BookingPlatformApplication">
+    <configuration name="AuthControllerTest.testRegisterUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booking_platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.booking_platform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.booking_platform" />
+      <option name="MAIN_CLASS_NAME" value="com.example.booking_platform.AuthControllerTest" />
+      <option name="METHOD_NAME" value="testRegisterUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookingPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="booking_platform" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.booking_platform.BookingPlatformApplication" />
@@ -94,6 +118,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AuthControllerTest.testRegisterUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -114,7 +143,10 @@
       <workItem from="1759472742791" duration="1010000" />
       <workItem from="1759480856115" duration="4745000" />
       <workItem from="1759583385813" duration="9357000" />
-      <workItem from="1759593446184" duration="345000" />
+      <workItem from="1759593446184" duration="2163000" />
+      <workItem from="1759596342891" duration="112000" />
+      <workItem from="1759596470911" duration="2360000" />
+      <workItem from="1759666234940" duration="2000000" />
     </task>
     <servers />
   </component>
