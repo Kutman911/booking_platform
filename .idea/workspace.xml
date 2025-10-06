@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a155505b-02f2-4132-9307-a5b2dd43f3bd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/security/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/security/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/controller/SpecialistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/controller/SpecialistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/repository/AppointmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/repository/AppointmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/repository/SpecialistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking_platform/src/main/java/com/example/booking_platform/repository/SpecialistRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,8 @@
       <workItem from="1759593446184" duration="2163000" />
       <workItem from="1759596342891" duration="112000" />
       <workItem from="1759596470911" duration="2360000" />
-      <workItem from="1759666234940" duration="3347000" />
+      <workItem from="1759666234940" duration="3590000" />
+      <workItem from="1759772826023" duration="294000" />
     </task>
     <servers />
   </component>
